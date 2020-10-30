@@ -1,0 +1,67 @@
+.wrapper {
+    width: 100%;
+  
+    height: auto;
+    min-height: 100vh;
+    
+    background-color: #E6E6FA;
+
+    
+   display: flex;
+   justify-content: center;
+    
+ 
+  
+  }
+ .section1{
+    height: auto;
+    min-height: 400px;
+    align-self: center;
+    width: 700px;
+
+    background-color: white;
+    border-radius: 5px;
+    
+   
+  
+ }
+ 
+ .card_header{
+  color:#08090A;
+   font-size: 25px;
+   font-weight: bold;
+   text-align: center;
+   padding-top: 60px;
+  }
+ 
+  
+  .git-login{
+    background-color: black;
+    color:white;
+    height: 50px;
+    border-radius: 3px;
+    border: 2px solid black;
+    margin-top: 40px;
+    font-size: 18px;
+    cursor: pointer;
+    }
+  
+    .gitbtn{
+        display: flex;
+        justify-content: center;
+      }
+      
+ @media(max-width:800px){
+
+    .section1{
+        height: auto;
+        min-height: 300px;
+        width: 400px;
+        margin-top: 80px;
+    }
+    
+ }
+
+      
+  
+    
